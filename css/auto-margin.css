@@ -1,0 +1,73 @@
+.container,
+.group-1,
+.group-2,
+.group-3,
+.group-4,
+.box {
+  display: flex;
+  padding: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.container {
+  border-color: #212121;
+  display: flex;
+  /* justify-content: space-between; */
+
+  /* Если задаём фиксированный размер блоку */
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .wrapper {
+  display: flex;
+} */
+
+/* Через соседа */
+/* .wrapper > .group + .group {
+  margin-left: 20px;
+} */
+
+/* Через "last-child" */
+/* .wrapper > .group:not(:last-child) {
+  margin-right: 20px;
+} */
+
+.grop-1 {
+  border-color: #f4433b;
+}
+
+.group-2 {
+  border-color: #219bf3;
+}
+
+.group-3 {
+  border-color: #4caf50;
+  /* Ещё приимер - без доп div */
+  /* margin-left: auto; */
+}
+
+.group-4 {
+  border-color: #ffc107;
+  /* margin-left: auto; */
+}
+
+/* Без доп селекторов */
+/* .group:not(:last-child) {
+  margin-right: 20px;
+} */
+
+.box {
+  margin-left: 4px;
+  margin-right: 4px;
+  border-color: #795548;
+  font-weight: 700;
+}
+
+/* Ещё пример - с доп div */
+/* .container > div {
+  display: flex;
+} */
